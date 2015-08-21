@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#383838" >
+
+         <ImageView
+            android:id="@+id/ccwnat_img_back_select_photo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/ccwant_back" />
+        <TextView
+            android:id="@+id/ccwant_txt_title_select_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="请选择"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ccwant_txt_cancel_select"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"      
+         >
+
+        <GridView
+            android:id="@+id/ccwant_grv_content_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ccwant_lyt_submit_select"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="5dp" >
+        </GridView>
+
+        <RelativeLayout
+            android:id="@+id/ccwant_lyt_submit_select"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+           >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp" 
+                android:background="#dddddd"
+                android:layout_alignParentTop="true"
+                />
+
+            <Button
+                android:id="@+id/ccwant_btn_submit_select" 
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ccwant_button_blue"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:text="完成(0)" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

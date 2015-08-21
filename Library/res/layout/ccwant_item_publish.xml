@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ccwant.photo.selector.widget.CCwantSquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/item_image_publish_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="#000000"
+        >
+    </ImageView>
+   
+</com.ccwant.photo.selector.widget.CCwantSquareLayout>

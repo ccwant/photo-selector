@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+     >
+
+    <FrameLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp" >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ccwant_album_back" />
+
+        <ImageView
+            android:id="@+id/ccwant_img_thumbnail_album_item_ccwant"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="#000000" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ccwant_txt_name_album_item_ccwant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="相册名称"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/ccwant_txt_count_album_item_ccwant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="8"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

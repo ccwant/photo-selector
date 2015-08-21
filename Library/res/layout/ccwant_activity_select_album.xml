@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1eff5"
+    android:orientation="vertical"
+    tools:context=".activity.CCwantSelectAlbumActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#383838" >
+
+          <ImageView
+            android:id="@+id/ccwnat_img_back_album"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/ccwant_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="相册"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/ccwant_lst_content_album"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true" />
+
+</LinearLayout>
