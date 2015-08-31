@@ -9,15 +9,15 @@
 ## 简介
 
 1.此处为选择图片的界面
-![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot1.png)
+![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot1.jpg)
 2.此处为选择相册的界面
-![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot2.png)
+![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot2.jpg)
 3.此处为选择图片界面
-![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot3.png)
+![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot3.jpg)
 4.此处为返回选择图片处的效果
-![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot4.png)
+![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot4.jpg)
 5.此处为图片浏览界面，在这里你可以进行删除浏览操作
-![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot5.png)
+![image](https://github.com/CCwant/photo-selector/blob/master/doc/boot5.jpg)
 
 
 

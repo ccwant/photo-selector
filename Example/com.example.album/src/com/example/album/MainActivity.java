@@ -1,4 +1,4 @@
-package com.example.album;
+﻿package com.example.album;
 
 
 import java.io.Serializable;
@@ -58,6 +58,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
+				//如果点击了+则打开相册选择器，否则打开相片浏览界面
 				if(position==mAdapter.getMaxPosition()-1){
 					Intent intent=new Intent(MainActivity.this,CCwantSelectAlbumActivity.class);
 					startActivityForResult(intent, OPEN_SELECT_ALBUM);
@@ -88,8 +89,8 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
-		
-		Log.d("", "requestCode:"+requestCode+"    resultCode:"+resultCode);
+	
+		//处理选择图片后的返回值
 		if(requestCode==OPEN_SELECT_ALBUM){
 			if (resultCode == RESULT_OK) {
 				Bundle bundle = data.getExtras();
@@ -101,6 +102,7 @@ public class MainActivity extends Activity {
 				mAdapter.notifyDataSetChanged();
 			}	
 		}
+		//处理图片浏览的返回值
 		if(requestCode==OPEN_PHOTO_BROWSER){
 			if (resultCode == RESULT_OK) {
 				Bundle bundle = data.getExtras();
