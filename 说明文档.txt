@@ -1,0 +1,6 @@
+1.在Eclipse开发环境中新建Android项目
+2.手动将Library下的所有文件复制到新建的项目中
+3.将此项目设置为Linbrary项目
+4.导入Example中的com.example.album项目到Eclipse中
+5.将第3步中的Library项目加入到com.example.album的Library中
+6.完成
